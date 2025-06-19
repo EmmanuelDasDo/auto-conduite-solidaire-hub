@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Building, Handshake, Users, Award } from 'lucide-react';
 import Navigation from '../components/Navigation';
@@ -36,8 +35,6 @@ const Partenaires = () => {
     "Missions Locales du Grand Est",
     "Centres Communaux d'Action Sociale",
     "Associations d'insertion",
-    "Maisons Départementales des Personnes Handicapées",
-    "Centres de Formation d'Apprentis",
     "Entreprises d'insertion",
     "Collectivités territoriales",
     "Centres sociaux"

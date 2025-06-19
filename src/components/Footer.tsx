@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, FileText } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -61,10 +61,24 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-300 text-sm">
-            © 2024 Auto Conduite. Tous droits réservés. | Projet d'Économie Sociale et Solidaire
-          </p>
+        <div className="border-t border-gray-700 mt-8 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text-gray-300 text-sm mb-4 md:mb-0">
+              © 2024 Auto Conduite. Tous droits réservés. | Projet d'Économie Sociale et Solidaire
+            </p>
+            <div className="flex items-center space-x-4">
+              <Link to="/mentions-legales" className="text-gray-300 hover:text-teal-400 transition-colors text-sm flex items-center space-x-1">
+                <FileText size={14} />
+                <span>Mentions légales</span>
+              </Link>
+              <Link to="/cgu" className="text-gray-300 hover:text-teal-400 transition-colors text-sm">
+                CGU
+              </Link>
+              <Link to="/confidentialite" className="text-gray-300 hover:text-teal-400 transition-colors text-sm">
+                Confidentialité
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

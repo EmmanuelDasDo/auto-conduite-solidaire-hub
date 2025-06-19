@@ -6,9 +6,9 @@ const CostSimulator = () => {
   const [selectedPackage, setSelectedPackage] = useState('5h');
   
   const packages = {
-    '5h': { hours: 5, price: 150, description: 'Parfait pour débuter' },
-    '10h': { hours: 10, price: 280, description: 'Idéal pour progresser' },
-    '20h': { hours: 20, price: 520, description: 'Formation complète' }
+    '5h': { hours: 5, price: 170, description: 'Parfait pour débuter' },
+    '10h': { hours: 10, price: 320, description: 'Idéal pour progresser' },
+    '20h': { hours: 20, price: 568, description: 'Formation complète' }
   };
 
   const selectedPkg = packages[selectedPackage as keyof typeof packages];
@@ -52,7 +52,7 @@ const CostSimulator = () => {
             <span className="text-2xl font-bold text-teal-600">{selectedPkg.price}€</span>
           </div>
           <div className="flex items-center justify-between text-sm text-gray-600">
-            <span>Soit {pricePerHour}€/heure</span>
+            <span>Soit {pricePerHour.toFixed(0)}€/heure</span>
             <div className="flex items-center space-x-1">
               <Car size={16} />
               <span>Assurance incluse</span>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Clock, Shield, Car, Users, CheckCircle, ArrowRight } from 'lucide-react';
 import Navigation from '../components/Navigation';
@@ -37,12 +36,11 @@ const Service = () => {
     {
       title: "Forfait Découverte",
       hours: "5h",
-      price: "150€",
+      price: "170€",
       features: [
         "5 heures de conduite",
         "Véhicule à double commande",
         "Assurance tous risques",
-        "Support téléphonique",
         "Carnet de bord numérique"
       ],
       popular: false
@@ -50,12 +48,11 @@ const Service = () => {
     {
       title: "Forfait Progression",
       hours: "10h",
-      price: "280€",
+      price: "320€",
       features: [
         "10 heures de conduite",
         "Véhicule à double commande",
         "Assurance tous risques",
-        "Support téléphonique",
         "Carnet de bord numérique",
         "Bilan intermédiaire"
       ],
@@ -64,15 +61,13 @@ const Service = () => {
     {
       title: "Forfait Complet",
       hours: "20h",
-      price: "520€",
+      price: "568€",
       features: [
         "20 heures de conduite",
         "Véhicule à double commande",
         "Assurance tous risques",
-        "Support téléphonique",
         "Carnet de bord numérique",
-        "Bilans réguliers",
-        "Accompagnement personnalisé"
+        "Bilans réguliers"
       ],
       popular: false
     }

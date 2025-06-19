@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Users, Heart, Award, Target, TrendingUp, MapPin } from 'lucide-react';
 import Navigation from '../components/Navigation';
@@ -20,7 +19,7 @@ const Impact = () => {
     },
     {
       icon: Award,
-      number: "85%",
+      number: "75-80%",
       label: "Taux de réussite au permis",
       description: "Un accompagnement personnalisé qui porte ses fruits"
     },
@@ -71,7 +70,7 @@ const Impact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Nos données clés
+              Nos objectifs
             </h2>
             <p className="text-xl text-gray-600">
               L'impact concret de notre action sur le terrain
