@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Users, Heart, Award, Target, TrendingUp, MapPin } from 'lucide-react';
 import Navigation from '../components/Navigation';
@@ -7,13 +8,13 @@ const Impact = () => {
   const impactData = [
     {
       icon: Users,
-      number: "500+",
+      number: "xxx",
       label: "Heures d'apprentissage offertes",
       description: "Grâce à nos tarifs solidaires et partenariats"
     },
     {
       icon: Heart,
-      number: "150+",
+      number: "xxx",
       label: "Personnes accompagnées",
       description: "Vers l'autonomie et l'insertion professionnelle"
     },
@@ -25,7 +26,7 @@ const Impact = () => {
     },
     {
       icon: Target,
-      number: "12",
+      number: "xxx",
       label: "Véhicules disponibles",
       description: "Répartis sur l'ensemble du Grand Est"
     }
@@ -36,11 +37,6 @@ const Impact = () => {
       title: "Solidarité",
       description: "Tarifs adaptés selon les ressources, avec possibilité de prise en charge partielle ou totale pour les publics en insertion.",
       icon: Heart
-    },
-    {
-      title: "Inclusion",
-      description: "Adaptation des véhicules et de l'accompagnement pour les personnes en situation de handicap.",
-      icon: Users
     },
     {
       title: "Gouvernance partagée",
@@ -104,7 +100,7 @@ const Impact = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
                 <Users className="text-white" size={24} />
@@ -114,18 +110,6 @@ const Impact = () => {
                 Accompagnement des demandeurs d'emploi et bénéficiaires RSA pour lever le frein de la mobilité.
               </p>
               <div className="text-2xl font-bold text-blue-600">65%</div>
-              <div className="text-sm text-gray-500">de nos apprenants</div>
-            </div>
-
-            <div className="bg-white p-8 rounded-xl shadow-lg">
-              <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
-                <Heart className="text-white" size={24} />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Handicap</h3>
-              <p className="text-gray-600 mb-4">
-                Véhicules adaptés et accompagnement spécialisé pour les personnes en situation de handicap.
-              </p>
-              <div className="text-2xl font-bold text-purple-600">20%</div>
               <div className="text-sm text-gray-500">de nos apprenants</div>
             </div>
 
@@ -156,7 +140,7 @@ const Impact = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {commitments.map((item, index) => (
               <div key={index} className="text-center p-8 rounded-xl bg-gradient-to-br from-teal-50 to-blue-50 hover:shadow-lg transition-shadow duration-200">
                 <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -175,7 +159,7 @@ const Impact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Déploiement territorial
+              Objectifs souhaités pour le déploiement territorial
             </h2>
             <p className="text-xl text-gray-600">
               Une présence croissante sur le Grand Est

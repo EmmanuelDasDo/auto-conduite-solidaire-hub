@@ -129,19 +129,19 @@ const Index = () => {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-teal-600 mb-2">500+</div>
+              <div className="text-4xl font-bold text-teal-600 mb-2">xxx</div>
               <div className="text-gray-700">Heures d'apprentissage offertes</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">150+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">xxx</div>
               <div className="text-gray-700">Personnes accompagnées</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-green-600 mb-2">12</div>
+              <div className="text-4xl font-bold text-green-600 mb-2">xxx</div>
               <div className="text-gray-700">Véhicules disponibles</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-purple-600 mb-2">8</div>
+              <div className="text-4xl font-bold text-purple-600 mb-2">xxx</div>
               <div className="text-gray-700">Partenaires institutionnels</div>
             </div>
           </div>
