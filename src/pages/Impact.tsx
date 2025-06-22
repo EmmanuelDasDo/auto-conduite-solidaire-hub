@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Users, Heart, Award, Target, TrendingUp, MapPin } from 'lucide-react';
 import Navigation from '../components/Navigation';
@@ -172,29 +171,27 @@ const Impact = () => {
                 <div className="flex items-center space-x-4">
                   <div className="w-4 h-4 bg-teal-600 rounded-full"></div>
                   <div>
-                    <div className="font-semibold text-gray-900">Strasbourg</div>
-                    <div className="text-gray-600">3 véhicules - Zone pilote</div>
+                    <div className="font-semibold text-gray-900">Zone pilote 2025</div>
+                    <div className="text-gray-600">Metz, Nancy, Thionville</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-4 h-4 bg-blue-600 rounded-full"></div>
                   <div>
-                    <div className="font-semibold text-gray-900">Metz</div>
-                    <div className="text-gray-600">2 véhicules - Extension 2024</div>
+                    <div className="font-semibold text-gray-900">5 véhicules en 12 mois</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-4 h-4 bg-green-600 rounded-full"></div>
                   <div>
-                    <div className="font-semibold text-gray-900">Nancy</div>
-                    <div className="text-gray-600">2 véhicules - Extension 2024</div>
+                    <div className="font-semibold text-gray-900">Extension 2026</div>
+                    <div className="text-gray-600">Forbach Freyming Merlebach et les alentours</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-4 h-4 bg-purple-600 rounded-full"></div>
                   <div>
-                    <div className="font-semibold text-gray-900">Autres communes</div>
-                    <div className="text-gray-600">5 véhicules - Zones rurales</div>
+                    <div className="font-semibold text-gray-900">plus de véhicules - Zones rurales</div>
                   </div>
                 </div>
               </div>
@@ -208,19 +205,15 @@ const Impact = () => {
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
-                  <span className="text-gray-700">Extension à Reims et Colmar</span>
+                  <span className="text-gray-700">5 véhicules en circulation</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
-                  <span className="text-gray-700">20 véhicules en circulation</span>
+                  <span className="text-gray-700">115 apprenants accompagnés</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
-                  <span className="text-gray-700">300 apprenants accompagnés</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
-                  <span className="text-gray-700">15 nouveaux partenaires</span>
+                  <span className="text-gray-700">5 partenaires</span>
                 </li>
               </ul>
             </div>
