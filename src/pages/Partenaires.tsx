@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Building, Handshake, Users, Award } from 'lucide-react';
 import Navigation from '../components/Navigation';
@@ -38,27 +39,6 @@ const Partenaires = () => {
     "Entreprises d'insertion",
     "Collectivités territoriales",
     "Centres sociaux"
-  ];
-
-  const testimonials = [
-    {
-      quote: "Auto Conduite répond à un vrai besoin de nos bénéficiaires. La mobilité est souvent le premier frein à l'emploi.",
-      author: "Marie Dubois",
-      role: "Conseillère France Travail",
-      location: "Strasbourg"
-    },
-    {
-      quote: "Ce partenariat nous permet d'offrir une solution concrète et immédiate aux jeunes que nous accompagnons.",
-      author: "Pierre Martin",
-      role: "Directeur Mission Locale",
-      location: "Metz"
-    },
-    {
-      quote: "L'approche solidaire d'Auto Conduite s'inscrit parfaitement dans nos valeurs d'inclusion et d'accessibilité.",
-      author: "Sophie Lefevre",
-      role: "Responsable MDPH",
-      location: "Nancy"
-    }
   ];
 
   return (
@@ -125,38 +105,6 @@ const Partenaires = () => {
                   <Users className="text-teal-600" size={24} />
                 </div>
                 <h3 className="font-semibold text-gray-900">{partner}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Témoignages de partenaires
-            </h2>
-            <p className="text-xl text-gray-600">
-              Ils nous font confiance et témoignent de l'impact du projet
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-gradient-to-br from-teal-50 to-blue-50 p-8 rounded-xl">
-                <div className="mb-6">
-                  <svg className="w-8 h-8 text-teal-600 mb-4" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M14,17H12L12.5,15H10.5L10,17H8L10.5,9H13.5L14,17M11.25,13H12.75L12,10.75L11.25,13M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                  </svg>
-                  <p className="text-gray-700 leading-relaxed italic">"{testimonial.quote}"</p>
-                </div>
-                <div>
-                  <div className="font-semibold text-gray-900">{testimonial.author}</div>
-                  <div className="text-teal-600 text-sm">{testimonial.role}</div>
-                  <div className="text-gray-500 text-sm">{testimonial.location}</div>
-                </div>
               </div>
             ))}
           </div>
